@@ -67,12 +67,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do List" id="bCk-OH-YG7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IQE-eG-ifi"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IQE-eG-ifi">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="9d3-1A-QZx"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vB3-el-4rV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="569" y="381"/>
+            <point key="canvasLocation" x="616" y="-73"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
